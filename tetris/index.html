@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TETRIS - JS</title>
+</head>
+<body>
+    <canvas id="canvas" width="400" height="800" 
+    style="border: 8px solid #808080; outline: 4px solid #000; border-radius: 8px;">
+    </canvas>
+    
+    <canvas id="nextShapeCanvas" 
+    style="position: absolute; top: 10; border: 8px solid #808080; margin-left: 12px; border-radius: 8px; outline: 4px solid #000;"
+    width="200" height="200">
+    </canvas>
+
+    <canvas
+    id="scoreCanvas"
+    width="200"
+    height="200"
+    style="border: 8px solid #808080; margin-left: 12px; border-radius: 8px; outline: 4px solid #000;
+    background: #000;">
+    </canvas>
+
+    <img src="blocks.png" alt="" id="image" style="display: none;"/>
+    <script src="tetris.js"></script>
+    
+</body>
+</html>

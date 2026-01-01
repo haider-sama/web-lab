@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.timerBtn{
+    width: 80px;
+    height: 30px;
+    border: 3px solid;
+    border-radius: 12px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+#timeDisplay{
+    font-size: 75px;
+    color: #ff0000;
+}
+#timeContainer{
+    text-align: center;
+    border: 3px solid;
+    border-radius: 25px;
+    background-color: #222;
+}
