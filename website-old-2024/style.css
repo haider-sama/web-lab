@@ -1,0 +1,69 @@
+.avatar-container {
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+    border: 2px solid #333;
+    overflow: hidden;
+}
+
+.avatar-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#gif {
+      width: 200px;
+      height: 200px;
+}
+  
+@keyframes arrow-move {
+      0%, 100% {
+          transform: translateX(0);
+      }
+      50% {
+          transform: translateX(5px);
+      }
+}
+
+.arrow {
+      display: inline-block;
+      animation: arrow-move 0.5s infinite;
+}
+
+@font-face {
+      font-family: 'DBS Scouter';
+      src: url('fonts/DBSScouter.ttf') format('truetype'); /* Adjust the path as necessary */
+}
+
+h1 {
+      font-family: Arial, sans-serif;
+}
+
+p {
+      font-family: Arial, sans-serif;
+}
+
+.power-level {
+      font-family: 'DBS Scouter', sans-serif;
+}
+
+.circular-icon {
+      width: 32px; /* Standard favicon size */
+      height: 32px;
+      border-radius: 50%; /* Makes the image circular */
+      object-fit: cover; /* Ensures image covers the circle */
+}
+
+.text-container {
+    max-width: 400px; /* Adjust the width as needed */
+    text-align: justify; /* Justify text to align both left and right edges */
+    margin: 0 auto; /* Center the container horizontally */
+    position: relative;
+}
+
+.text-container::after {
+    content: "";
+    display: block;
+    height: 0;
+    margin-top: 10px; /* Adjust margin if needed */
+}
